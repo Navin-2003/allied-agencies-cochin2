@@ -1,0 +1,22 @@
+[build]
+  publish = "dist"
+  command = "npm run build:prod"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[headers]
+  "/*"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com *.gstatic.com *.whatsapp.com; style-src 'self' 'unsafe-inline' *.googleapis.com; img-src 'self' data: *.unsplash.com *.wikipedia.org *.google.com *.gstatic.com; font-src 'self' *.googleapis.com *.gstatic.com; connect-src 'self'; frame-src *.google.com;"
+
+  ["/admin.html"]
+    X-Frame-Options = "SAMEORIGIN"
