@@ -1,0 +1,68 @@
+[
+  {
+    "id": "submersible-pumps",
+    "name": "Submersible Pumps",
+    "category": "Residential",
+    "categoryColor": "bg-blue-500",
+    "badgeColor": "green",
+    "description": "High-efficiency submersible pumps for residential water supply and drainage applications.",
+    "image": "https://images.unsplash.com/photo-1564769625744-392248449b1c?auto=format&fit=crop&w=700&q=50",
+    "featured": true,
+    "status": "available"
+  },
+  {
+    "id": "centrifugal-pumps",
+    "name": "Centrifugal Pumps",
+    "category": "Industrial",
+    "categoryColor": "bg-red-500",
+    "badgeColor": "green",
+    "description": "Robust centrifugal pumps designed for industrial applications with high flow rates.",
+    "image": "https://images.unsplash.com/photo-1581091012217-3c332b9b989c?auto=format&fit=crop&w=700&q=50",
+    "featured": true,
+    "status": "available"
+  },
+  {
+    "id": "agricultural-pumps",
+    "name": "Agricultural Pumps",
+    "category": "Agriculture",
+    "categoryColor": "bg-green-500",
+    "badgeColor": "green",
+    "description": "Durable pumps specifically designed for agricultural irrigation and water management.",
+    "image": "https://images.unsplash.com/photo-1560072816-61a1e425c60b?auto=format&fit=crop&w=700&q=50",
+    "featured": true,
+    "status": "available"
+  },
+  {
+    "id": "solar-pumps",
+    "name": "Solar Pumps",
+    "category": "Renewable",
+    "categoryColor": "bg-yellow-500",
+    "badgeColor": "amber",
+    "description": "Energy-efficient solar-powered pumps for sustainable water solutions.",
+    "image": "https://images.unsplash.com/photo-1509395062183-67c3a4117813?auto=format&fit=crop&w=700&q=50",
+    "featured": true,
+    "status": "available"
+  },
+  {
+    "id": "pressure-boosters",
+    "name": "Pressure Boosters",
+    "category": "Commercial",
+    "categoryColor": "bg-purple-500",
+    "badgeColor": "green",
+    "description": "Advanced pressure booster systems for commercial buildings and facilities.",
+    "image": "https://images.unsplash.com/photo-1581092528805-1b1cba13ef54?auto=format&fit=crop&w=700&q=50",
+    "featured": true,
+    "status": "available"
+  },
+  {
+    "id": "water-treatment",
+    "name": "Water Treatment Systems",
+    "category": "Treatment",
+    "categoryColor": "bg-teal-500",
+    "badgeColor": "green",
+    "description": "Complete water treatment solutions for clean and safe water supply.",
+    "image": "https://images.unsplash.com/photo-1560072816-61a1e425c60b?auto=format&fit=crop&w=700&q=50",
+    "featured": true,
+    "status": "available"
+  }
+]
